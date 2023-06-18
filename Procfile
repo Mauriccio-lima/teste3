@@ -1,1 +1,1 @@
-web: gunicorn"app:@bot.message_handler()"
+web: gunicorn"app:app"
