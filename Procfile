@@ -1,1 +1,1 @@
-web: gunicorn bot:bot
+web: flask bot:bot
