@@ -1,1 +1,1 @@
-web: gunicorn"app:@bot.message_handler(commands=['start', 'help'])"
+web: gunicorn"app:@bot.message_handler()"
